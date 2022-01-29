@@ -1,0 +1,52 @@
+[
+  {
+    "year": "00:00",
+    "value": 54,
+    "category": "Memory"
+  },
+  {
+    "year": "01:00",
+    "value": 54,
+    "category": "Memory"
+  },
+  {
+    "year": "02:00",
+    "value": 20,
+    "category": "Memory"
+  },
+  {
+    "year": "03:00",
+    "value": 59,
+    "category": "Memory"
+  },
+  {
+    "year": "04:00",
+    "value": 69,
+    "category": "Memory"
+  },
+  {
+    "year": "05:00",
+    "value": 71,
+    "category": "Memory"
+  },
+  {
+    "year": "06:00",
+    "value": 76,
+    "category": "Memory"
+  },
+  {
+    "year": "07:00",
+    "value": 77,
+    "category": "Memory"
+  },
+  {
+    "year": "08:00",
+    "value": 78,
+    "category": "Memory"
+  },
+  {
+    "year": "09:00",
+    "value": 83,
+    "category": "Memory"
+  }
+]

@@ -1,0 +1,114 @@
+.maintop {
+  background: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  /* background-color: rgba(0, 0, 0, 0.377); */
+}
+
+.maintop-shadow {
+  width: 100%;
+  height: 15rem;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  background-image: linear-gradient(to bottom, #141414cc, rgba(0, 0, 0, 0));
+}
+
+.title {
+  background: none;
+  width: 100%;
+  font-size: 25px;
+  font-weight: 900;
+  color: white;
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.titleback > img {
+  margin: 1.2rem auto;
+  width: 100%;
+}
+
+.esch {
+  width: 100%;
+  background: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 900;
+}
+.view {
+  background: none;
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.viewtitle {
+  width: 100%;
+  padding: 5px;
+  color: white;
+  font-size: 12px;
+  font-weight: 900;
+}
+.nums {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+}
+.view > .nums > .num {
+  padding: 1px;
+  margin: 1px;
+  width: 15px;
+  height: 18px;
+  background-color: hsl(180, 100%, 50%);
+  padding: 2px;
+  border-radius: 2px;
+  font-weight: 900;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.rise {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+}
+.risevulume {
+  color: white;
+  font-weight: 900;
+}
+.triangle_down {
+  width: 0;
+  height: 0;
+  background: none;
+  border-left: 6px solid transparent;
+  border-top: 12px solid yellow;
+  border-right: 6px solid transparent;
+}
+.triangle_up {
+  width: 0;
+  height: 0;
+  background: none;
+  border-left: 6px solid transparent;
+  border-bottom: 12px solid white;
+  border-right: 6px solid transparent;
+}

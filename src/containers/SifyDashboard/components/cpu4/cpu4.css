@@ -1,0 +1,30 @@
+.cpu4 .titles {
+  font-size: 0.9rem;
+  color: white;
+  width: 100%;
+  border-bottom: 3px solid #4298b5;
+  font-weight: 900;
+}
+
+.cpu4-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.cpu4 .years {
+  float: left;
+  width: 33.3333%;
+  padding: 2px;
+  margin-top: 10px;
+}
+.cpu4 .years1 {
+  font-size: 0.8rem;
+  color: #4298b5;
+  font-weight: 900;
+  line-height: 0.8rem;
+}
+.cpu4 .years2 {
+  font-size: 0.9rem;
+  color: white;
+  font-weight: 800;
+}

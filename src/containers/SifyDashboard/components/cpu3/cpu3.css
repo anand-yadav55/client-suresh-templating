@@ -1,0 +1,119 @@
+.cpu3 {
+  padding: 30px 0px;
+}
+
+.cpu3-title {
+  font-size: 1.05rem;
+  font-weight: 900;
+  border-bottom: 3px solid #4298b5;
+}
+
+.cpu3 .des {
+  color: white;
+  width: 100%;
+}
+
+.graphy-parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  overflow-x: hidden;
+}
+
+.graphis {
+  margin-top: 1rem;
+  width: 100%;
+  /* float: left; */
+  display: block;
+  text-align: justify;
+}
+
+.graphi {
+  padding: 2px;
+  /* float: left; */
+  text-align: center;
+}
+.cpu3 .colordes {
+  width: 50%;
+  padding: 2px;
+  float: left;
+  height: 82px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.cpu3 .coleach {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  text-transform: uppercase;
+}
+.cpu3 .colr {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ff6666;
+}
+.cpu3 .colg {
+  width: 12px;
+  height: 12px;
+  background-color: #cad5e2;
+  border-radius: 50%;
+}
+.cpu3 .colw {
+  width: 12px;
+  height: 12px;
+  background-color: #35bdd0;
+  border-radius: 50%;
+}
+.cpu3 .cold {
+  width: 12px;
+  height: 12px;
+  background-color: #3944f7;
+  border-radius: 50%;
+}
+.cpu3 .cdes {
+  font-size: 0.65rem;
+  color: white;
+  margin-left: 0.1rem;
+}
+.cpu3 span {
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+.cpu3-crousel {
+  overflow: hidden;
+  display: flex;
+  height: 100%;
+  width: 100% !important;
+  /* background-color: blueviolet; */
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  /* color: #474747; */
+  color: #ffffff;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+@keyframes toTop {
+  0% {
+    transform: translateY(0%);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes bottomToCurrent {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}

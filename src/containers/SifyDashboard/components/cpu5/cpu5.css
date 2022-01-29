@@ -1,0 +1,36 @@
+.cpu5 .titles {
+  font-size: 0.9rem;
+  color: white;
+  width: 100%;
+  border-bottom: 3px solid #4298b5;
+  font-weight: 900;
+}
+
+.cpu5-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cpu5 .years {
+  display: flex;
+  width: 100%;
+  margin-top: 1rem;
+}
+.cpu5 .years1 {
+  font-size: 0.9rem;
+  color: #4298b5;
+  font-weight: 900;
+  line-height: 0.9rem;
+}
+.cpu5 .years2 {
+  font-size: 0.9rem;
+  color: white;
+  font-weight: 800;
+  line-height: 0.9rem;
+}
+
+.cpu5-chart > div > div > canvas {
+  /* background-color: rgb(221, 221, 221); */
+  width: 100% !important;
+  height: 15rem !important;
+}

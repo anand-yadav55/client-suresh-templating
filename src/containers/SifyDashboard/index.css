@@ -1,0 +1,80 @@
+.sify {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  justify-content: center;
+}
+
+.sify > .sify-cpu,
+.sify > .sify-map {
+  position: absolute;
+}
+
+.sify-map {
+  width: 100%;
+  height: 100vh;
+}
+
+.sify-cpu {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 100vh;
+  top: 0;
+  z-index: 499;
+  backdrop-filter: blur(2px);
+  background-color: #001529bf;
+  border: 0;
+  border-top: 2px solid #3f96a6;
+  margin: 7px;
+  overflow: auto;
+}
+
+.sify-maintop {
+  z-index: 499;
+  text-align: center;
+  display: block;
+  width: 40%;
+  left: 50%;
+  right: 50%;
+  height: 10rem;
+}
+
+.sify-cpu::-webkit-scrollbar {
+  width: 0px;
+}
+
+.sify-cpul {
+  left: 0;
+}
+
+.sify-cpur {
+  right: 0;
+}
+
+.sify-cpu > div {
+  padding: 5px;
+  color: hsl(0, 100%, 99%);
+  margin: 0.15rem 0;
+}
+
+html
+  body
+  div#root
+  section.ant-layout.ant-layout-has-sider.bg
+  section.ant-layout.bg
+  main.ant-layout-content.bg
+  div.sify
+  div.sify-map
+  div.leaflet-container.leaflet-touch.leaflet-fade-anim.leaflet-grab.leaflet-touch-drag.leaflet-touch-zoom
+  div.leaflet-control-container
+  div.leaflet-top.leaflet-left
+  div.leaflet-control-zoom.leaflet-bar.leaflet-control {
+  display: none !important;
+}
+
+.dashboard-title-color {
+  color: #4298b5;
+}

@@ -1,0 +1,39 @@
+{
+  "data": [
+    {
+      "name": "0",
+      "Series 1": 1,
+      "Series 2": 3
+    },
+    {
+      "name": "1",
+      "Series 1": 2,
+      "Series 2": 1
+    },
+    {
+      "name": "2",
+      "Series 1": 4,
+      "Series 2": 5
+    },
+    {
+      "name": "3",
+      "Series 1": 2,
+      "Series 2": 6
+    },
+    {
+      "name": "4",
+      "Series 1": 7,
+      "Series 2": 4
+    },
+    {
+      "name": "5",
+      "Series 1": 1,
+      "Series 2": 10
+    },
+    {
+      "name": "6",
+      "Series 1": 25,
+      "Series 2": 14
+    }
+  ]
+}

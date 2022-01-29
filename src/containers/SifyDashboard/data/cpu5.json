@@ -1,0 +1,79 @@
+{
+  "data": [
+    {
+      "series": "Series 1",
+      "x": "January",
+      "y": 1
+    },
+    {
+      "series": "Series 2",
+      "x": "January",
+      "y": 3
+    },
+    {
+      "series": "Series 3",
+      "x": "January",
+      "y": 2
+    },
+    {
+      "series": "Series 1",
+      "x": "Feburary",
+      "y": 2
+    },
+    {
+      "series": "Series 2",
+      "x": "Feburary",
+      "y": 1
+    },
+    {
+      "series": "Series 3",
+      "x": "Feburary",
+      "y": 3
+    },
+    {
+      "series": "Series 1",
+      "x": "March",
+      "y": 4
+    },
+    {
+      "series": "Series 2",
+      "x": "March",
+      "y": 5
+    },
+    {
+      "series": "Series 3",
+      "x": "March",
+      "y": 6
+    },
+    {
+      "series": "Series 1",
+      "x": "April",
+      "y": 2
+    },
+    {
+      "series": "Series 2",
+      "x": "April",
+      "y": 6
+    },
+    {
+      "series": "Series 3",
+      "x": "April",
+      "y": 4
+    },
+    {
+      "series": "Series 1",
+      "x": "May",
+      "y": 2
+    },
+    {
+      "series": "Series 2",
+      "x": "May",
+      "y": 6
+    },
+    {
+      "series": "Series 3",
+      "x": "May",
+      "y": 4
+    }
+  ]
+}

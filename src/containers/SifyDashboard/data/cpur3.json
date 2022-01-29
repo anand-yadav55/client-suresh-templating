@@ -1,0 +1,48 @@
+{
+  "data": [
+    {
+      "ecb": 0,
+      "alerts": 0
+    },
+    {
+      "ecb": 1,
+      "alerts": 2
+    },
+    {
+      "ecb": 2,
+      "alerts": 3
+    },
+    {
+      "ecb": 3,
+      "alerts": 1
+    },
+    {
+      "ecb": 4,
+      "alerts": 3
+    },
+    {
+      "ecb": 5,
+      "alerts": 7
+    },
+    {
+      "ecb": 6,
+      "alerts": 6
+    },
+    {
+      "ecb": 7,
+      "alerts": 5
+    },
+    {
+      "ecb": 8,
+      "alerts": 7
+    },
+    {
+      "ecb": 9,
+      "alerts": 8
+    },
+    {
+      "ecb": 10,
+      "alerts": 9
+    }
+  ]
+}

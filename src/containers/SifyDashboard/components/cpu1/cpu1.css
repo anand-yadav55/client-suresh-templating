@@ -1,0 +1,58 @@
+.cpu1 {
+  display: grid !important;
+  grid-template-columns: 1fr;
+}
+
+.cpu1-title {
+  font-size: 2rem;
+  color: white;
+  width: 100%;
+  padding: 5px;
+  border-bottom: 2px solid #4298b5;
+}
+
+.cpu1-years {
+  float: left;
+  width: 50%;
+  padding: 2px;
+}
+
+.cpu1-color,
+.cpu1-des {
+  color: #4298b5;
+}
+
+.cpu1-pdes {
+  margin: 0.5rem 0;
+}
+
+.cpu1-des {
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+.cpu1-num {
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 900;
+  line-height: 1.3rem;
+}
+
+.cpu1-desimg {
+  color: rgb(194, 194, 194);
+  font-size: 0.7rem;
+  font-weight: 800;
+}
+.cpu1-videoimg {
+  width: 100%;
+  /* height: 80px; */
+}
+
+.cpu1-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cpu1-bottom-des {
+  font-size: 0.9rem;
+}

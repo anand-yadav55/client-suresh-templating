@@ -1,0 +1,152 @@
+[
+  {
+    "year": "00:00",
+    "value": 36.5,
+    "category": "Cpu"
+  },
+  {
+    "year": "00:00",
+    "value": 54,
+    "category": "Memory"
+  },
+  {
+    "year": "00:00",
+    "value": 15,
+    "category": "Disk Usage"
+  },
+  {
+    "year": "01:00",
+    "value": 36.5,
+    "category": "Cpu"
+  },
+  {
+    "year": "01:00",
+    "value": 54,
+    "category": "Memory"
+  },
+  {
+    "year": "01:00",
+    "value": 16,
+    "category": "Disk Usage"
+  },
+  {
+    "year": "02:00",
+    "value": 20,
+    "category": "Cpu"
+  },
+  {
+    "year": "02:00",
+    "value": 20,
+    "category": "Memory"
+  },
+  {
+    "year": "02:00",
+    "value": 20,
+    "category": "Disk Usage"
+  },
+  {
+    "year": "03:00",
+    "value": 36.5,
+    "category": "Cpu"
+  },
+  {
+    "year": "03:00",
+    "value": 59,
+    "category": "Memory"
+  },
+  {
+    "year": "03:00",
+    "value": 21,
+    "category": "Disk Usage"
+  },
+  {
+    "year": "04:00",
+    "value": 36.5,
+    "category": "Cpu"
+  },
+  {
+    "year": "04:00",
+    "value": 69,
+    "category": "Memory"
+  },
+  {
+    "year": "04:00",
+    "value": 22,
+    "category": "Disk Usage"
+  },
+  {
+    "year": "05:00",
+    "value": 36.5,
+    "category": "Cpu"
+  },
+  {
+    "year": "05:00",
+    "value": 71,
+    "category": "Memory"
+  },
+  {
+    "year": "05:00",
+    "value": 23,
+    "category": "Disk Usage"
+  },
+  {
+    "year": "06:00",
+    "value": 36.5,
+    "category": "Cpu"
+  },
+  {
+    "year": "06:00",
+    "value": 76,
+    "category": "Memory"
+  },
+  {
+    "year": "06:00",
+    "value": 24,
+    "category": "Disk Usage"
+  },
+  {
+    "year": "07:00",
+    "value": 36.5,
+    "category": "Cpu"
+  },
+  {
+    "year": "07:00",
+    "value": 77,
+    "category": "Memory"
+  },
+  {
+    "year": "07:00",
+    "value": 25,
+    "category": "Disk Usage"
+  },
+  {
+    "year": "08:00",
+    "value": 36.5,
+    "category": "Cpu"
+  },
+  {
+    "year": "08:00",
+    "value": 78,
+    "category": "Memory"
+  },
+  {
+    "year": "08:00",
+    "value": 27,
+    "category": "Disk Usage"
+  },
+  {
+    "year": "09:00",
+    "value": 45,
+    "category": "Cpu"
+  },
+  {
+    "year": "09:00",
+    "value": 83,
+    "category": "Memory"
+  },
+  {
+    "year": "09:00",
+    "value": 60,
+    "category": "Disk Usage"
+  }
+]
