@@ -1,0 +1,50 @@
+.sify-cpul-0 {
+  color: hsl(0, 0%, 100%);
+}
+
+.sify-cpu-titles {
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.sify-cpul-years {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-startW;
+  flex-direction: column;
+}
+.sify-cpul-years:nth-child(1) {
+  grid-column: 1;
+}
+.sify-cpul-years:nth-child(2) {
+  grid-column: 2;
+}
+.sify-cpul-years1 {
+  font-size: 0.9rem;
+  font-weight: bolder;
+}
+.sify-cpul-years2 {
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  color: #19eaf4;
+}
+
+.sify-cpu-divider-2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.sify-cpu-subBox {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  width: 50%;
+}
+.sify-cpul-subBox-text-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

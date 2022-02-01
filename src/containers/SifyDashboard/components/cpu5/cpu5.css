@@ -7,8 +7,9 @@
 }
 
 .cpu5-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .cpu5 .years {
@@ -18,19 +19,18 @@
 }
 .cpu5 .years1 {
   font-size: 0.9rem;
-  color: #4298b5;
+  color: #fff;
   font-weight: 900;
   line-height: 0.9rem;
 }
 .cpu5 .years2 {
   font-size: 0.9rem;
-  color: white;
-  font-weight: 800;
+  color: #19eaf4;
+  font-weight: 600;
   line-height: 0.9rem;
 }
 
 .cpu5-chart > div > div > canvas {
-  /* background-color: rgb(221, 221, 221); */
   width: 100% !important;
   height: 15rem !important;
 }

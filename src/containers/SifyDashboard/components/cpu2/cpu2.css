@@ -1,0 +1,10 @@
+.sify-cpu2-subBox {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sify-cpu2-head {
+  text-align: center;
+}

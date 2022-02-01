@@ -1,8 +1,3 @@
-.cpu1 {
-  display: grid !important;
-  grid-template-columns: 1fr;
-}
-
 .cpu1-title {
   font-size: 2rem;
   color: white;
@@ -47,12 +42,28 @@
   width: 100%;
   /* height: 80px; */
 }
-
 .cpu1-bottom {
-  display: flex;
-  justify-content: space-between;
+  margin-top: 10px;
 }
-
 .cpu1-bottom-des {
   font-size: 0.9rem;
+}
+.cpu1-vehicle-record {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.cpu1-vehicle {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+.cpu1-vehicle-data-title {
+  color: #fff;
+  text-align: center;
+}
+.cpu1-vehicle-count {
+  color: #19eaf4;
+  text-align: center;
 }

@@ -1,27 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import './cpu5.css'
-import { Line } from '@ant-design/charts'
 import { Area } from '@ant-design/plots'
 import data from './data.json'
 
 function Cpu5() {
-  var config = {
-    data: data,
-    xField: 'year',
-    yField: 'value',
-    seriesField: 'category',
-    yAxis: {
-      label: {
-        formatter: function formatter(v) {
-          return ''.concat(v).replace(/\d{1,3}(?=(\d{3})+$)/g, function (s) {
-            return ''.concat(s, ',')
-          })
-        },
-      },
-    },
-    color: ['#1979C9', '#D62A0D', '#FAA219'],
-  }
   const configLineChart = {
     data: data,
     xField: 'year',
@@ -41,7 +24,7 @@ function Cpu5() {
     },
     areaStyle: () => {
       return {
-        fill: 'l(270) 0:#0000 0.5:#0c3a53 1:#0e96bb',
+        fill: 'l(270) 0.5:#598af0 1:#fff',
       }
     },
   }
@@ -63,7 +46,6 @@ function Cpu5() {
         </div>
       </div>
       <div style={{ marginTop: '0.5rem' }} className="cpu5-chart">
-        <Line {...config} />
         <Area {...configLineChart} />
       </div>
     </div>

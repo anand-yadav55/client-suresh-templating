@@ -26,6 +26,19 @@
 .ant-menu-item a {
   color: #fff !important;
 }
+a {
+  color: #fff;
+}
+.ant-menu-item-selected {
+  background: none;
+}
+.ant-col {
+  max-width: 100%;
+  display: flex;
+  min-height: 1px;
+  height: inherit;
+  align-items: center;
+}
 .anticon {
   color: #fff;
 }
@@ -34,6 +47,14 @@
 }
 .leaflet-control {
   z-index: 498;
+}
+.leaflet-control-container {
+  display: flex;
+  position: absolute;
+  align-items: baseline;
+  right: 11px;
+  bottom: 56px;
+  flex-direction: row-reverse;
 }
 .logo {
   max-width: 65%;
@@ -137,6 +158,7 @@ a:hover {
 ._topmenu {
   width: 100%;
   display: flex;
+  height: inherit;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;

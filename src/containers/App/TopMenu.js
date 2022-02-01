@@ -84,6 +84,9 @@ export default class TopMenu extends Component {
             mode="horizontal"
             style={{ width: 'fit-content' }}
           >
+            <Menu.Item key="date-time">
+              <LiveDateTime />
+            </Menu.Item>
             <Menu.SubMenu
               title={<AppstoreOutlined style={{ fontSize: '1.25rem' }} />}
               mode="horizontal"
@@ -178,9 +181,7 @@ export default class TopMenu extends Component {
                 </div>
               </div>
             </Menu.SubMenu>
-            <Menu.Item key="date-time">
-              <LiveDateTime />
-            </Menu.Item>
+
             <Menu.SubMenu
               title={<BellOutlined style={{ fontSize: '1.25rem' }} />}
               key="/bell"

@@ -64,12 +64,17 @@ class App extends Component {
         <Layout className="bg">
           <>
             <Layout className="bg">
-              <Header style={{ padding: '0px' }} className="bg-text-primary">
+              <Header
+                style={{ padding: '0px', height: '50px' }}
+                className="bg-text-primary"
+              >
                 <div
                   style={{
                     width: '100%',
                     display: 'flex',
                     flexDirection: 'row',
+                    height: 'inherit',
+                    justifyContent: 'center',
                   }}
                 >
                   <TopMenu
@@ -103,10 +108,7 @@ class App extends Component {
                 </Sider>
 
                 <Layout>
-                  <Content
-                    style={{ minHeight: '100vh', backgroundColor: 'white' }}
-                    className="bg"
-                  >
+                  <Content style={{ backgroundColor: 'white' }} className="bg">
                     <MainDrawer />
                   </Content>
                 </Layout>

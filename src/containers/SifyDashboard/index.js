@@ -8,6 +8,7 @@ import Cpu5 from './components/cpu5/cpu5'
 import MainTop from './components/maintop/maintop'
 import './index.css'
 import { Skeleton, message } from 'antd'
+import Map from '../Map'
 
 class SifyDashboard extends Component {
   state = {
@@ -132,6 +133,9 @@ class SifyDashboard extends Component {
             <Skeleton />
           )}
           {this.state.cpu5 ? <Cpu5 /> : <Skeleton />}
+        </div>
+        <div className="sify-map">
+          <Map />
         </div>
       </div>
     )

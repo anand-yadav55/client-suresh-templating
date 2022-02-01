@@ -14,28 +14,28 @@
 }
 
 .graphy-parent {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .graphis {
-  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
   width: 100%;
-  /* float: left; */
-  display: block;
   text-align: justify;
+  align-items: center;
+  justify-content: center;
 }
 
 .graphi {
   padding: 2px;
-  /* float: left; */
+  width: 50%;
+  height: 120px;
   text-align: center;
 }
 .cpu3 .colordes {
   width: 50%;
   padding: 2px;
-  float: left;
   height: 82px;
   display: flex;
   flex-direction: column;
@@ -53,24 +53,30 @@
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #ff6666;
+  background-color: #598af0;
 }
 .cpu3 .colg {
   width: 12px;
   height: 12px;
-  background-color: #cad5e2;
+  background-color: #58d0a1;
   border-radius: 50%;
 }
 .cpu3 .colw {
   width: 12px;
   height: 12px;
-  background-color: #35bdd0;
+  background-color: #5b6d8e;
   border-radius: 50%;
 }
 .cpu3 .cold {
   width: 12px;
   height: 12px;
-  background-color: #3944f7;
+  background-color: #ecb619;
+  border-radius: 50%;
+}
+.cpu3 .cold2 {
+  width: 12px;
+  height: 12px;
+  background-color: #6c5cf0;
   border-radius: 50%;
 }
 .cpu3 .cdes {

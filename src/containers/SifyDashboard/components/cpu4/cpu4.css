@@ -12,19 +12,21 @@
 }
 
 .cpu4 .years {
-  float: left;
+  align-items: center;
   width: 33.3333%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
   padding: 2px;
   margin-top: 10px;
 }
 .cpu4 .years1 {
   font-size: 0.8rem;
-  color: #4298b5;
-  font-weight: 900;
+  color: #fff;
+  font-weight: 600;
   line-height: 0.8rem;
 }
 .cpu4 .years2 {
   font-size: 0.9rem;
-  color: white;
-  font-weight: 800;
+  color: #19eaf4;
 }
