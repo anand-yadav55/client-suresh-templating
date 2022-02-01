@@ -82,7 +82,6 @@ export default class TopMenu extends Component {
             selectedKeys={[this.state.current]}
             className="bg _topmenu"
             mode="horizontal"
-            style={{ width: 'fit-content' }}
           >
             <Menu.Item key="date-time">
               <LiveDateTime />

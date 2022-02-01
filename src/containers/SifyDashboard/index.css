@@ -22,7 +22,7 @@
   display: flex;
   flex-direction: column;
   width: 30%;
-  height: inherit;
+  height: 91vh;
   top: 0;
   z-index: 499;
   backdrop-filter: blur(2px);

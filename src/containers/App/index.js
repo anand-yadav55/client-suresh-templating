@@ -113,7 +113,19 @@ class App extends Component {
                   </Content>
                 </Layout>
               </Layout>
-              <Footer style={{ textAlign: 'center' }} className="bg">
+              <Footer
+                style={{
+                  textAlign: 'center',
+                  position: 'absolute',
+                  left: '50%',
+                  right: '50%',
+                  background: 'transparent',
+                  width: 'fit-content',
+                  zIndex: '501',
+                  bottom: '0',
+                }}
+                className="bg"
+              >
                 ITMS ©2020
               </Footer>
             </Layout>

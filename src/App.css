@@ -39,6 +39,9 @@ a {
   height: inherit;
   align-items: center;
 }
+.ant-menu-horizontal {
+  border: 0;
+}
 .anticon {
   color: #fff;
 }
@@ -161,7 +164,7 @@ a:hover {
   height: inherit;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   margin: 0 15px;
 }
 
