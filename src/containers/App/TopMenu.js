@@ -48,7 +48,7 @@ export default class TopMenu extends Component {
   render() {
     return (
       <Row className="bg _topmenu">
-        <Col>
+        <Col style={{ width: '50%', justifyContent: 'flex-start' }}>
           <span style={{ display: 'flex', alignItems: 'center' }}>
             <span
               onClick={this.props.toggleCollapsed}
@@ -76,7 +76,7 @@ export default class TopMenu extends Component {
             </span>
           </span>
         </Col>
-        <Col>
+        <Col style={{ width: '50%', justifyContent: 'flex-end' }}>
           <Menu
             onClick={this.handleClick}
             selectedKeys={[this.state.current]}
