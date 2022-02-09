@@ -1,0 +1,69 @@
+.cpur .titles {
+  font-size: 1rem;
+  color: white;
+  width: 100%;
+  padding: 5px;
+  text-align: right;
+  font-weight: 900;
+  border-bottom: 3px solid #4298b5;
+}
+
+.cpur-weather {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 1rem;
+}
+
+.cpur-weather-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem 0;
+}
+
+.cpur-weather-temp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.cpur-weather-temp-now {
+  font-size: 2.5rem;
+  position: relative;
+  line-height: 2.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cpur-weather-temp-now > sup {
+  top: 25%;
+  position: absolute;
+  font-size: 1.5rem;
+}
+
+.cpur-weather-temp-feel {
+  font-size: small;
+}
+
+.cpur-weather-bottom {
+  margin-top: 10px;
+}
+
+.cpur-weather-lbottom {
+  display: grid;
+  grid-template-columns: 1fr 0.75fr 1fr;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  padding-left: 1rem;
+}
+
+.cpur-weather-rbottom {
+  padding-left: 1.5rem;
+}
+
+.cpur-icon {
+  display: flex;
+  align-items: center;
+  font-size: 0.65rem;
+}

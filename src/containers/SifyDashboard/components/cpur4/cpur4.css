@@ -1,0 +1,12 @@
+.cpur4-vss {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.cpur4-img {
+  border: 1px solid #19e9f4c9;
+  width: 95%;
+  display: block;
+  margin: 0.25rem auto;
+  filter: blur(1px);
+}

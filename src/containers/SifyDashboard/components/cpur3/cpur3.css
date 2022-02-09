@@ -1,0 +1,30 @@
+.cpur3-ecb-sub {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.cpur3-sub1,
+.cpur3-sub2 {
+  /* font-weight: bolder; */
+}
+.years1 {
+  font-size: 0.8rem;
+  color: #fff;
+  font-weight: 600;
+  line-height: 0.8rem;
+}
+.years2 {
+  font-size: 0.9rem;
+  color: #19eaf4;
+}
+.cpur3-sub2 {
+  /* text-align: end; */
+}
+
+.cpur3-chart > div > div > canvas {
+  margin-top: 1rem;
+  width: 100% !important;
+  height: 7rem !important;
+}

@@ -5,10 +5,16 @@ import Cpu2 from './components/cpu2/cpu2'
 import Cpu3 from './components/cpu3/cpu3'
 import Cpu4 from './components/cpu4/cpu4'
 import Cpu5 from './components/cpu5/cpu5'
+import Cpur from './components/cpur/cpur'
+import Cpur2 from './components/cpur2/cpur2'
+import Cpur3 from './components/cpur3/cpur3'
+import Cpur4 from './components/cpur4/cpur4'
 import MainTop from './components/maintop/maintop'
+import Map from '../Map/index'
 import './index.css'
+import { data as cpur3Data } from './data/cpur3.json'
+import cpur4Image from './assets/video.png'
 import { Skeleton, message } from 'antd'
-import Map from '../Map'
 
 class SifyDashboard extends Component {
   state = {
@@ -136,6 +142,54 @@ class SifyDashboard extends Component {
         </div>
         <div className="sify-map">
           <Map />
+        </div>
+        <div className="sify-cpu sify-cpur">
+          {this.state.cpur ? (
+            <Cpur
+              weatherIcon={{
+                icon: ['fas', 'sun'],
+                className: 'spin',
+                style: { fontSize: '3.5rem' },
+                color: 'gold',
+              }}
+              temperature={24}
+              temperatureFeelsLike={23}
+              maxTemperature={26}
+              windSpeed={10}
+              humidity={93}
+              hPa={64}
+              visibility={12.75}
+              sunset="Tue 8:12 PM"
+              sunrise="Tue 5:59 AM"
+            />
+          ) : (
+            <Skeleton />
+          )}
+          {this.state.cpur2 ? (
+            <Cpur2
+              vmsMessages={[
+                'Dont drink and drive',
+                'Drive safely family is in wating',
+                'Work in progress go slowly',
+                'Dont use mobile while driving',
+              ]}
+            />
+          ) : (
+            <Skeleton />
+          )}
+          {this.state.cpur3 ? (
+            <Cpur3 data={cpur3Data} {...this.state.ecb} />
+          ) : (
+            <Skeleton />
+          )}
+          {this.state.cpur4 ? (
+            <Cpur4 images={[cpur4Image, cpur4Image, cpur4Image, cpur4Image]} />
+          ) : (
+            <Skeleton />
+          )}
+        </div>
+        <div className="sify-maintop">
+          <MainTop />
         </div>
       </div>
     )

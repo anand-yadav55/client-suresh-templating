@@ -1,0 +1,14 @@
+.cpur2-vms {
+  margin-top: 1rem;
+  font-size: x-large;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  width: 80%;
+  height: 5rem;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center;
+  font-weight: bold;
+  word-wrap: break-word;
+  text-align: center;
+}

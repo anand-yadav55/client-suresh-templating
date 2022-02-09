@@ -35,9 +35,10 @@
 
 .sify-maintop {
   z-index: 499;
+  margin-top: 10px;
   text-align: center;
   display: block;
-  width: 40%;
+  width: 30vw;
   left: 50%;
   right: 50%;
   height: 10rem;
